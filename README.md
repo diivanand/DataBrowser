@@ -8,11 +8,12 @@ Other popular cross-platform desktop applications written using the Github Elect
 4. Visual Studio Code Editor
 
 Frameworks/Tools Used:
-1. HTML, CSS, and ES6 Javascript (gets converted during build step via Babel into ES5 for since Electron doesn't support all of ES6 yet)
-2. Browserify which bundles all app dependencies into one file
-3. electron-packager which builds the Mac/Windows/Linux app (based on what OS you are using)
-4. Jasmine for unit testing (TODO)
-5. various other Node JS libraries required for app (cassandra-client and solr-client), check out package.json for full list.
+1. HTML, CSS, and ES6 Javascript (gets converted during build step via Babel into ES5 since Electron doesn't support ES6 yet)
+2. React
+3. Browserify which bundles all app dependencies into one script file
+4. electron-packager which builds the Mac/Windows/Linux app (based on what OS you are using)
+5. Jasmine for unit testing (TODO)
+6. various other Node JS libraries required for app (cassandra-client and solr-client), check out package.json for full list.
 
 Building the Mac App (It will be a Windows app if you're using windows or Linux app if you're using Linux):
 0. Install Node js if you haven't already (https://nodejs.org/en/download/)
